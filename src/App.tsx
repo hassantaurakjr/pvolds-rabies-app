@@ -35,7 +35,7 @@ export default function App() {
   >();
   const [user, setUser] = useState<User | null>(null);
 
-  const handleLogin = (email: string, role: string) => {
+  const handleLogin = (email: string, _role: string) => {
     // Mock user data based on email
     const userData: Record<
       string,

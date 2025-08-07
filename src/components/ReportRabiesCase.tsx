@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import { Textarea } from "./ui/textarea";
 import { Checkbox } from "./ui/checkbox";
 import { Badge } from "./ui/badge";
-import { AlertTriangle, Camera, MapPin, User, Calendar, FileText } from "lucide-react";
+import { AlertTriangle, Camera, User, FileText } from "lucide-react";
 
 export function ReportRabiesCase() {
   const [reportData, setReportData] = useState({

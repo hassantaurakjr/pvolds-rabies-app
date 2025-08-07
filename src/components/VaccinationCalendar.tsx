@@ -9,7 +9,7 @@ import { Calendar, Plus, MapPin, Clock, Users } from "lucide-react";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog";
 
 export function VaccinationCalendar() {
-  const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
+
   const [filterLocation, setFilterLocation] = useState('all');
   const [newEvent, setNewEvent] = useState({
     title: '',
